@@ -1,7 +1,7 @@
 import type { Component } from "solid-js";
 
 import logo from "./logo.svg";
-import styles from "./App.module.css";
+import * as styles from "./styles.css";
 
 const App: Component = () => {
   return (
