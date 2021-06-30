@@ -5,11 +5,13 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "yarn run build && gh-pages -d dist"
   },
   "license": "MIT",
   "devDependencies": {
     "@vanilla-extract/vite-plugin": "^1.0.0",
+    "gh-pages": "^3.2.3",
     "vite": "^2.3.8",
     "vite-plugin-solid": "^2.0.0"
   },
